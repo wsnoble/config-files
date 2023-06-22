@@ -1,0 +1,19 @@
+[user]
+	name = wsnoble
+	email = wnoble@uw.edu
+
+[svn-remote "svn"]
+        branches =
+        tags =
+[push]
+	default = matching
+[pull]
+	rebase = false
+
+# If you get this error:
+#
+#    There is no tracking information for the current branch.
+#
+# then do this:
+#
+#    git branch -u origin/main
